@@ -7,11 +7,11 @@ pragma solidity ^0.4.13;
 /* The token is used as a voting shares */
 contract token {
     mapping (address => uint) public balances;
-    function transferFrom(address _from, address _to, uint256 _value) returns (bool success);
-    function transfer(address _to, uint _value) returns (bool success);
-    function balanceOf(address _owner) constant returns (uint balance);
-    function approve(address _spender, uint _value) returns (bool success);
-    function allowance(address _owner, address _spender) constant returns (uint remaining);
+    function transferFrom(address _from, address _to, uint256 _value) public returns (bool success);
+    function transfer(address _to, uint _value) public returns (bool success);
+    function balanceOf(address _owner) public constant returns (uint balance);
+    function approve(address _spender, uint _value) public returns (bool success);
+    function allowance(address _owner, address _spender) public constant returns (uint remaining);
 }
 
 
@@ -30,13 +30,14 @@ contract factory{
     Client
     }
 
-    function getProfiles(address _owner) constant returns (address[] _Profile);
-    function getType(address _Profile) constant returns (TypeW _type);
+    //function getProfiles(address _owner) constant returns (address[] _Profile);
+    function getType(address _Profile) public constant returns (TypeW _type);
 }
 
 contract profile{
     function OpenDeal(uint cost, uint _endTime) external returns (uint lockId);
 }
+
 contract Declaration {
 
 }

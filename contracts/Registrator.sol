@@ -11,7 +11,7 @@ pragma solidity ^0.4.13;
 // External calls
 
 contract factory {
-function getProfile(address _owner) constant returns (address _Profile);
+function getProfile(address _owner)public constant returns (address _Profile);
 }
 
 
@@ -19,7 +19,7 @@ contract Registrator {
 
   factory ProfilesFactory;
 
-  function Registrator(address Factory){
+  function Registrator(address Factory) public {
     ProfilesFactory = factory(Factory);
   }
 

@@ -1,4 +1,4 @@
-pragma solidity ^0.4.13;
+pragma solidity ^0.4.14;
 
 
 //Raw prototype of Profile Factory
@@ -19,7 +19,6 @@ contract Factory is factory {
     // owner => Profile
     mapping (address => address[]) public Profiles;
 
-    //Profile types
     // Profile => type
     mapping (address => TypeW) public types;
 
@@ -27,7 +26,7 @@ contract Factory is factory {
 
     address fish = 0x0;
 
-    function Factory(address TokenAddress){
+    function Factory(address TokenAddress) public {
         sharesTokenAddress = TokenAddress;
         dao = msg.sender;
     }
@@ -45,7 +44,7 @@ contract Factory is factory {
         Sonm = _Sonm;
     }
 
-    function createProfile(bool isHub) returns (address){
+    function createProfile(bool isHub) public returns (address){
         require(Sonm != fish);
         var profile = address(new Profile(msg.sender, dao, Sonm, sharesTokenAddress, isHub));
         //TODO: getting profile type from array
@@ -54,11 +53,11 @@ contract Factory is factory {
         return profile;
     }
 
-    function getProfiles(address _owner) constant returns (address[] _Profile) {
+    function getProfiles(address _owner)public constant returns (address[] _Profile) {
         return Profiles[_owner];
     }
 
-    function getType(address _Profile) constant returns (TypeW _type) {
+    function getType(address _Profile) public constant returns (TypeW _type) {
         return types[_Profile];
     }
 }

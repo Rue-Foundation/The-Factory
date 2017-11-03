@@ -11,7 +11,7 @@ contract PresaleToken {
 
     /// @dev Constructor
     /// @param _tokenManager Token manager address.
-    function PresaleToken(address _tokenManager) {
+    function PresaleToken(address _tokenManager) public {
         tokenManager = _tokenManager;
     }
 
@@ -72,7 +72,7 @@ contract PresaleToken {
      *  Public functions
     /*/
 
-    function() payable {
+    function() payable public {
         buyTokens(msg.sender);
     }
 
@@ -114,7 +114,7 @@ contract PresaleToken {
 
     /// @dev Returns number of tokens owned by given address.
     /// @param _owner Address of token owner.
-    function balanceOf(address _owner) constant returns (uint256) {
+    function balanceOf(address _owner) public constant returns (uint256) {
         return balance[_owner];
     }
 

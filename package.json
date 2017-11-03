@@ -39,7 +39,7 @@
     "json-loader": "^0.5.4",
     "loader-utils": "^1.1.0",
     "style-loader": "^0.13.2",
-    "truffle": "^3.4.11",
+    "truffle": "^4.0.1",
     "truffle-contract": "^1.1.11",
     "web3": "^0.18.2",
     "webpack": "^2.2.1",

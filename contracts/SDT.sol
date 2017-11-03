@@ -25,13 +25,13 @@ contract SDT is StandardToken,Ownable {
   uint public decimals = 18;
   uint public INITIAL_SUPPLY = 1000000 * 1 ether ;
 
-  function SDT() {
+  function SDT() public {
     totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
 
 
-  function mintToken(address target, uint256 mintedAmount) onlyOwner {
+  function mintToken(address target, uint256 mintedAmount) public onlyOwner {
       balances[target] += mintedAmount;
       totalSupply += mintedAmount;
       Transfer(0, owner, mintedAmount);

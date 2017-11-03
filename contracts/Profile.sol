@@ -1,4 +1,4 @@
-pragma solidity ^0.4.13;
+pragma solidity ^0.4.14;
 
 
 //sonm profile abstraction
@@ -68,7 +68,7 @@ contract Profile is Ownable, Dealable {
 
     // constructor
 
-    function Profile(address _profileowner, address _dao, address Sonm, address _sharesTokenAddress, bool _isHub){
+    function Profile(address _profileowner, address _dao, address Sonm, address _sharesTokenAddress, bool _isHub) public {
       owner = _profileowner;
       dao = _dao;
       Network = Sonm;
@@ -81,7 +81,7 @@ contract Profile is Ownable, Dealable {
     modifier onlyClient(){require(isHub==false); _;}
 
 
-    function GetDeals(address _contragentAddress) constant returns (uint256[]){
+    function GetDeals(address _contragentAddress) public constant returns (uint256[]){
       return mydeals[_contragentAddress];
     }
 
@@ -156,6 +156,7 @@ contract Profile is Ownable, Dealable {
       lockedFunds-=withdrawAmount;
       updateWithdrawedFunds(_lockId, withdrawAmount);
       return true;
+    }
 
     function Withdrawl(address _whom, uint _amount) public onlyOwner returns (bool success){
       require(transfer(_whom, _amount));

@@ -24,7 +24,7 @@ contract Network {
 
     event unRegistred(address _owner, address Profile, uint64 time, factory.TypeW _type, uint Diff);
 
-    function Network(factory Factory){
+    function Network(factory Factory) public {
         ProfilesFactory = factory(Factory);
     }
 
