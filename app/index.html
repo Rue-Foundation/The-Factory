@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deals</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Deals</h1>
+
+  <table>
+    <tr>
+      <td>Coinbase</td>
+      <td id="coinbase-balance"></td>
+      <td>
+        <button onclick="App.sendToHub()">toHub</button>
+        <button onclick="App.sendToClient()">toClient</button>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hub</td>
+      <td id="hub-balance"></td>
+      <td id="hub-allowance"></td>
+      <td>
+        <button onclick="App.allowFromHub()">Allow</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Client</td>
+      <td id="client-balance"></td>
+      <td id="client-allowance"></td>
+      <td>
+        <button onclick="App.allowFromClient()">Allow</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Deals-contract</td>
+      <td id="deals-balance"></td>
+      <td></td>
+      <td>
+        <!--<button onclick="App.allowFromHub()">Allow</button>-->
+      </td>
+    </tr>
+  </table>
+
+
+  <button onclick="App.OpenDeal()">OpenDeal</button>
+  <br>
+  <input type="number" id="dealId" placeholder="Id">
+  <button onclick="App.AcceptDeal()">AcceptDeal</button>
+  <button onclick="App.CloseDeal()">CloseDeal</button>
+
+  <hr>
+  <table>
+    <tr>
+      <td>id</td>
+      <td>price</td>
+      <td>startTime</td>
+      <td>workTime</td>
+      <td>endTime</td>
+      <td>status</td>
+    </tr>
+    <tbody id="deals-table"></tbody>
+  </table>
+
+
+  <hr>
+  <button onclick="App.LogAllEvents()">Log All Token Event</button>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "contractName": "DealsRegistry",
+  "abi": [],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a723058204bfd337c65500a7f7d46e66646b6cea6c31462f570fff8c5c05820d4bcb2c98d0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058204bfd337c65500a7f7d46e66646b6cea6c31462f570fff8c5c05820d4bcb2c98d0029",
+  "sourceMap": "51:542:2:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "51:542:2:-;;;;;",
+  "source": "pragma solidity ^0.4.15;\n\n\nimport \"./Deals.sol\";\n\n\ncontract DealsRegistry {\n/*\n    address[] dealsContracts;\n\n    address token;\n\n    function GetAllVersion() constant returns(address[]){\n        return dealsContracts;\n    }\n\n    function GetLastVersion() constant returns(address){\n        return dealsContracts[dealsContracts.length];\n    }\n\n    function Migrate(address newContract) {\n        var amount = Deals(this.GetLastVersion()).GetDealsAmount();\n        Deals(newContract).setDealAmount(amount);\n        dealsContracts.push(newContract);\n    }\n\n    function GetAllDeals(){\n\n    }*/\n}\n",
+  "sourcePath": "/home/quasisamurai/Рабочий стол/github/tsc-new-way/contracts/DealsRegistry.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/home/quasisamurai/Рабочий стол/github/tsc-new-way/contracts/DealsRegistry.sol",
+      "exportedSymbols": {
+        "DealsRegistry": [
+          719
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".15"
+          ]
+        },
+        "id": 717,
+        "name": "PragmaDirective",
+        "src": "0:24:2"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 514,
+          "absolutePath": "/home/quasisamurai/Рабочий стол/github/tsc-new-way/contracts/Deals.sol",
+          "file": "./Deals.sol",
+          "scope": 720,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 718,
+        "name": "ImportDirective",
+        "src": "27:21:2"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            719
+          ],
+          "name": "DealsRegistry",
+          "nodes": [
+            null
+          ],
+          "scope": 720
+        },
+        "id": 719,
+        "name": "ContractDefinition",
+        "src": "51:542:2"
+      }
+    ],
+    "id": 720,
+    "name": "SourceUnit",
+    "src": "0:594:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2017-11-14T17:22:25.602Z"
+}
