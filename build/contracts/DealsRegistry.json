@@ -1,18 +1,18 @@
 {
   "contractName": "DealsRegistry",
   "abi": [],
-  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a723058204bfd337c65500a7f7d46e66646b6cea6c31462f570fff8c5c05820d4bcb2c98d0029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058204bfd337c65500a7f7d46e66646b6cea6c31462f570fff8c5c05820d4bcb2c98d0029",
-  "sourceMap": "51:542:2:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "51:542:2:-;;;;;",
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820017c0caf2ca33c8d8f86eddcc0cc2042e454977fa1a29a6e44cc519af7906dfe0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820017c0caf2ca33c8d8f86eddcc0cc2042e454977fa1a29a6e44cc519af7906dfe0029",
+  "sourceMap": "51:542:3:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "51:542:3:-;;;;;",
   "source": "pragma solidity ^0.4.15;\n\n\nimport \"./Deals.sol\";\n\n\ncontract DealsRegistry {\n/*\n    address[] dealsContracts;\n\n    address token;\n\n    function GetAllVersion() constant returns(address[]){\n        return dealsContracts;\n    }\n\n    function GetLastVersion() constant returns(address){\n        return dealsContracts[dealsContracts.length];\n    }\n\n    function Migrate(address newContract) {\n        var amount = Deals(this.GetLastVersion()).GetDealsAmount();\n        Deals(newContract).setDealAmount(amount);\n        dealsContracts.push(newContract);\n    }\n\n    function GetAllDeals(){\n\n    }*/\n}\n",
-  "sourcePath": "/home/quasisamurai/Рабочий стол/github/tsc-new-way/contracts/DealsRegistry.sol",
+  "sourcePath": "/home/quasisamurai/Рабочий стол/github/SonmLib/contracts/DealsRegistry.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/home/quasisamurai/Рабочий стол/github/tsc-new-way/contracts/DealsRegistry.sol",
+      "absolutePath": "/home/quasisamurai/Рабочий стол/github/SonmLib/contracts/DealsRegistry.sol",
       "exportedSymbols": {
         "DealsRegistry": [
-          719
+          648
         ]
       }
     },
@@ -26,24 +26,24 @@
             ".15"
           ]
         },
-        "id": 717,
+        "id": 646,
         "name": "PragmaDirective",
-        "src": "0:24:2"
+        "src": "0:24:3"
       },
       {
         "attributes": {
-          "SourceUnit": 514,
-          "absolutePath": "/home/quasisamurai/Рабочий стол/github/tsc-new-way/contracts/Deals.sol",
+          "SourceUnit": 71,
+          "absolutePath": "/home/quasisamurai/Рабочий стол/github/SonmLib/contracts/Deals.sol",
           "file": "./Deals.sol",
-          "scope": 720,
+          "scope": 649,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 718,
+        "id": 647,
         "name": "ImportDirective",
-        "src": "27:21:2"
+        "src": "27:21:3"
       },
       {
         "attributes": {
@@ -57,22 +57,22 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            719
+            648
           ],
           "name": "DealsRegistry",
           "nodes": [
             null
           ],
-          "scope": 720
+          "scope": 649
         },
-        "id": 719,
+        "id": 648,
         "name": "ContractDefinition",
-        "src": "51:542:2"
+        "src": "51:542:3"
       }
     ],
-    "id": 720,
+    "id": 649,
     "name": "SourceUnit",
-    "src": "0:594:2"
+    "src": "0:594:3"
   },
   "compiler": {
     "name": "solc",
@@ -80,5 +80,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2017-11-14T17:22:25.602Z"
+  "updatedAt": "2017-11-17T14:15:00.644Z"
 }

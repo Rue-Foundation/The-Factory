@@ -34,13 +34,31 @@ contract Deals{
       //delegate call to library
       // 0x0 means we dont need output
       // 0x8 means where we store beigin of argument
-      // end is on the 0x3 + argumentsize
+      // end is on the 0x8 + argumentsize
       0x0 0x0 msgend 0x8 libra delegatecall
     }
   }
 
+  address libra;
 
-  function changeLibAddress(address _newlib) returns (bool success){
+  function() payable {
+    if (msg.data.length > 0)
+      libra.delegatecall(msg.data);
+  }
+
+  function GetDealInfo(uint dealIndex) constant returns (bool){
+      return libra.delegatecall(msg.data);
+  }
+
+  function GetDeals(address addr) constant returns (bool){
+      return libra.delegatecall(msg.data);
+  }
+
+  function GetDealsAmount() constant returns (bool){
+      return libra.delegatecall(msg.data);
+    }
+
+  function ChangeLibAddress(address _newlib) returns (bool success){
     address libra = _newlib;
     return true;
   }
