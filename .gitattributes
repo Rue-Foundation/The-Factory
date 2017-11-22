@@ -1,3 +1,4 @@
+*.sol linguist-vendored=true
 *.sol linguist-language=Solidity
-*.html linguist-vendored=false
-*.css linguist-vendored=false
+app/index.html linguist-vendored=false
+app/stylesheets/app.css linguist-vendored=false
