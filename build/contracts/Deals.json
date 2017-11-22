@@ -110,15 +110,15 @@
       "type": "fallback"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6040516040806104068339810160405280805190602001909190805190602001909190505060008060008060405180807f4465616c734c696228545343546f6b656e205f746b6e29000000000000000000815250601701905060405180910390209350859250600191506014820260020290508360005280380381816008396008820160008082600888f45050505050505050610355806100b16000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063087ca1d8146100d35780635a52334c146101245780635ad5f6ae14610175578063e45ea8d3146101b0575b60008036905011156100d1576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f4915050505b005b34156100de57600080fd5b61010a600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101dd565b604051808215151515815260200191505060405180910390f35b341561012f57600080fd5b61015b600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610247565b604051808215151515815260200191505060405180910390f35b341561018057600080fd5b6101966004808035906020019091905050610257565b604051808215151515815260200191505060405180910390f35b34156101bb57600080fd5b6101c36102c1565b604051808215151515815260200191505060405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b6000808290506001915050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050905600a165627a7a7230582022702514ebcf0077b62cc3f7e5978991c9d79e28c68b4f90c41a84a6ad46359b0029",
-  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063087ca1d8146100d35780635a52334c146101245780635ad5f6ae14610175578063e45ea8d3146101b0575b60008036905011156100d1576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f4915050505b005b34156100de57600080fd5b61010a600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101dd565b604051808215151515815260200191505060405180910390f35b341561012f57600080fd5b61015b600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610247565b604051808215151515815260200191505060405180910390f35b341561018057600080fd5b6101966004808035906020019091905050610257565b604051808215151515815260200191505060405180910390f35b34156101bb57600080fd5b6101c36102c1565b604051808215151515815260200191505060405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b6000808290506001915050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050905600a165627a7a7230582022702514ebcf0077b62cc3f7e5978991c9d79e28c68b4f90c41a84a6ad46359b0029",
+  "bytecode": "0x6060604052341561000f57600080fd5b6040516040806104068339810160405280805190602001909190805190602001909190505060008060008060405180807f4465616c734c696228545343546f6b656e205f746b6e29000000000000000000815250601701905060405180910390209350859250600191506014820260020290508360005280380381816008396008820160008082600888f45050505050505050610355806100b16000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063087ca1d8146100d35780635a52334c146101245780635ad5f6ae14610175578063e45ea8d3146101b0575b60008036905011156100d1576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f4915050505b005b34156100de57600080fd5b61010a600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101dd565b604051808215151515815260200191505060405180910390f35b341561012f57600080fd5b61015b600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610247565b604051808215151515815260200191505060405180910390f35b341561018057600080fd5b6101966004808035906020019091905050610257565b604051808215151515815260200191505060405180910390f35b34156101bb57600080fd5b6101c36102c1565b604051808215151515815260200191505060405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b6000808290506001915050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050905600a165627a7a7230582058684e3b85e832e5364cd0dd9b8e746b41ecf757a8eeccdba44549632b38aab10029",
+  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063087ca1d8146100d35780635a52334c146101245780635ad5f6ae14610175578063e45ea8d3146101b0575b60008036905011156100d1576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f4915050505b005b34156100de57600080fd5b61010a600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101dd565b604051808215151515815260200191505060405180910390f35b341561012f57600080fd5b61015b600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610247565b604051808215151515815260200191505060405180910390f35b341561018057600080fd5b6101966004808035906020019091905050610257565b604051808215151515815260200191505060405180910390f35b34156101bb57600080fd5b6101c36102c1565b604051808215151515815260200191505060405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b6000808290506001915050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050919050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16600036604051808383808284378201915050925050506000604051808303818561646e5a03f49150509050905600a165627a7a7230582058684e3b85e832e5364cd0dd9b8e746b41ecf757a8eeccdba44549632b38aab10029",
   "sourceMap": "52:1670:0:-;;;71:1093;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;160:16;258:13;463:17;574:12;186:31;;;;;;;;;;;;;;;;;;;160:58;;274:6;258:22;;483:1;463:21;;609:2;594:12;:17;589:1;:23;574:38;;680:9;690:3;694:6;765:7;773:8;782:3;847:7;855:9;865:3;869:8;928:3;932:7;940:3;1117;1121;1125:6;1132:3;1136:5;1142:12;627:533;;;;;;;;52:1670;;;;;;",
   "deployedSourceMap": "52:1670:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1233:1;1215:8;;:15;;:19;1211:59;;;1242:5;;;;;;;;;;;:18;;1261:8;;1242:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1211:59;52:1670;1391:103;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1601:116;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1279:108;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1498:99;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1391:103;1441:4;1461:5;;;;;;;;;;;:18;;1480:8;;1461:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1454:35;;1391:103;;;:::o;1601:116::-;1653:12;1672:13;1688:7;1672:23;;1708:4;1701:11;;1601:116;;;;:::o;1279:108::-;1334:4;1354:5;;;;;;;;;;;:18;;1373:8;;1354:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1347:35;;1279:108;;;:::o;1498:99::-;1542:4;1562:5;;;;;;;;;;;:18;;1581:8;;1562:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1555:35;;1498:99;:::o",
   "source": "pragma solidity ^0.4.15;\n\nimport \"./TSCToken.sol\";\n\ncontract Deals{\n\n  function Deals(address _libra, TSCToken token){\n    //convert to low-level signature\n    bytes4 signature = bytes4(sha3(\"DealsLib(TSCToken _tkn)\"));\n    //address of library contract\n    address libra = _libra;\n\n    // Compute the size of the call data\n    //address has 20(!) bytes\n    //but we need only last argument\n    //thats why we take only one arg.\n    // should it multiple 2x?\n    uint argarraysize = 1;\n    //address has 20(!) bytes (on ethscan 40 symbols)\n    // should it multiple 2x?\n    uint argsize = 2 * (argarraysize * 20);\n\n    assembly{\n      //add the signature to begin of memory\n      signature 0x0 mstore\n\n      //call data is at the end of code\n\n      let valuepart:= argsize codesize sub\n      //copy agrsize bytes from end of codesize to 0x8\n      argsize valuepart 0x8 codecopy\n      // where the messge ends\n      let msgend:= 0x8 argsize add\n      //delegate call to library\n      // 0x0 means we dont need output\n      // 0x8 means where we store beigin of argument\n      // end is on the 0x8 + argumentsize\n      0x0 0x0 msgend 0x8 libra delegatecall\n    }\n  }\n\n  address libra;\n\n  function() payable {\n    if (msg.data.length > 0)\n      libra.delegatecall(msg.data);\n  }\n\n  function GetDealInfo(uint dealIndex) constant returns (bool){\n      return libra.delegatecall(msg.data);\n  }\n\n  function GetDeals(address addr) constant returns (bool){\n      return libra.delegatecall(msg.data);\n  }\n\n  function GetDealsAmount() constant returns (bool){\n      return libra.delegatecall(msg.data);\n    }\n\n  function ChangeLibAddress(address _newlib) returns (bool success){\n    address libra = _newlib;\n    return true;\n  }\n\n  }\n",
-  "sourcePath": "/home/quasisamurai/Рабочий стол/github/SonmLib/contracts/Deals.sol",
+  "sourcePath": "/home/quasisamurai/Рабочий стол/github/The-Factory/contracts/Deals.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/home/quasisamurai/Рабочий стол/github/SonmLib/contracts/Deals.sol",
+      "absolutePath": "/home/quasisamurai/Рабочий стол/github/The-Factory/contracts/Deals.sol",
       "exportedSymbols": {
         "Deals": [
           110
@@ -141,8 +141,8 @@
       },
       {
         "attributes": {
-          "SourceUnit": 155,
-          "absolutePath": "/home/quasisamurai/Рабочий стол/github/SonmLib/contracts/TSCToken.sol",
+          "SourceUnit": 790,
+          "absolutePath": "/home/quasisamurai/Рабочий стол/github/The-Factory/contracts/TSCToken.sol",
           "file": "./TSCToken.sol",
           "scope": 111,
           "symbolAliases": [
@@ -232,7 +232,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "TSCToken",
-                          "referencedDeclaration": 154,
+                          "referencedDeclaration": 789,
                           "type": "contract TSCToken"
                         },
                         "id": 5,
@@ -355,7 +355,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 592,
+                                  "referencedDeclaration": 1227,
                                   "type": "function () pure returns (bytes32)",
                                   "value": "sha3"
                                 },
@@ -826,7 +826,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 584,
+                                      "referencedDeclaration": 1219,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -937,7 +937,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 584,
+                                      "referencedDeclaration": 1219,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -1149,7 +1149,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 584,
+                                  "referencedDeclaration": 1219,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1397,7 +1397,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 584,
+                                  "referencedDeclaration": 1219,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1645,7 +1645,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 584,
+                                  "referencedDeclaration": 1219,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1908,5 +1908,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2017-11-17T14:33:20.802Z"
+  "updatedAt": "2017-11-22T12:11:38.553Z"
 }
