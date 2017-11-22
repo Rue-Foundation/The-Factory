@@ -1,4 +1,4 @@
-*.sol linguist-vendored=true
-*.sol linguist-language=Solidity
+contracts/* linguist-vendored
+linguist-language=Solidity
 app/index.html linguist-vendored=false
 app/stylesheets/app.css linguist-vendored=false
