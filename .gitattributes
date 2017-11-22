@@ -1,0 +1,3 @@
+*.sol linguist-language=Solidity
+*.html linguist-vendored=false
+*.css linguist-vendored=false
