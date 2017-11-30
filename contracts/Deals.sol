@@ -6,9 +6,9 @@ contract Deals{
 
   function Deals(address _libra, TSCToken token){
     //convert to low-level signature
-    bytes4 signature = bytes4(sha3("DealsLib(TSCToken _tkn)"));
+    bytes4 signature = bytes4(keccak256("DealsLib(TSCToken _tkn)"));
     //address of library contract
-    address libra = _libra;
+    libra = _libra;
 
     // Compute the size of the call data
     //address has 20(!) bytes
@@ -35,12 +35,12 @@ contract Deals{
       // 0x0 means we dont need output
       // 0x8 means where we store beigin of argument
       // end is on the 0x8 + argumentsize
-      0x0 0x0 msgend 0x8 libra delegatecall
+      0x0 0x0 msgend 0x8 _libra delegatecall
     }
   }
 
   address libra;
-
+  //fallback and center of magic
   function() payable {
     if (msg.data.length > 0)
       libra.delegatecall(msg.data);
@@ -59,7 +59,7 @@ contract Deals{
     }
 
   function ChangeLibAddress(address _newlib) returns (bool success){
-    address libra = _newlib;
+    libra = _newlib;
     return true;
   }
 
