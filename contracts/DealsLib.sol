@@ -40,13 +40,8 @@ contract DealsLib {
     mapping (uint => uint256) blockedBalance;
 
     mapping (address => uint[]) dealsIndex;
-<<<<<<< HEAD
     // also know as Fees Address
     address collector;
-=======
-    // also know as "DAO"
-    address owner;
->>>>>>> cff6d202f34628074bd14cc7236dd0b173c9c37c
     // in % of succesfuly sold computations
     uint fee;
 
@@ -54,11 +49,7 @@ contract DealsLib {
         token = _tkn;
         // in % of succesfuly sold computations
         fee = 5;
-<<<<<<< HEAD
         collector = msg.sender;
-=======
-        owner = msg.sender;
->>>>>>> cff6d202f34628074bd14cc7236dd0b173c9c37c
     }
 
     function OpenDeal(address _hub, address _client, uint256 _specHash, uint256 _price, uint _workTime){
@@ -96,24 +87,14 @@ contract DealsLib {
             // Closing deal
             if (now > deals[id].endTime) {
                 // After endTime
-<<<<<<< HEAD
                 uint feeAmount = PayComission(id, deals[id].price);
                 require(token.transfer(deals[id].hub, (deals[id].price - feeAmount)));
                 blockedBalance[id] = blockedBalance[id].sub(deals[id].price - feeAmount);
-=======
-                uint feeAmount = PayComission(deals[id].price);
-                require(token.transfer(deals[id].hub, (deals[id].price - feeAmount)));
-                blockedBalance[id] = blockedBalance[id].sub(deals[id].price);
->>>>>>> cff6d202f34628074bd14cc7236dd0b173c9c37c
             } else {
                 require(msg.sender == deals[id].client);
                 // Before endTime
                 var paidAmount = (now - deals[id].startTime) * (deals[id].price / deals[id].workTime);
-<<<<<<< HEAD
                 feeAmount = PayComission(id, paidAmount);
-=======
-                feeAmount = PayComission(paidAmount);
->>>>>>> cff6d202f34628074bd14cc7236dd0b173c9c37c
                 require(token.transfer(deals[id].hub, paidAmount - feeAmount));
                 blockedBalance[id] = blockedBalance[id].sub(paidAmount);
                 require(token.transfer(deals[id].client, deals[id].price - paidAmount));
